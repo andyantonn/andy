@@ -1,0 +1,71 @@
+{{ if .Site.Data.homepage.aboutProduct.enable }}
+{{ with .Site.Data.homepage.aboutProduct }}
+<section class="feature-list section text-center" id="price">
+  <h2 class="subheading text-white">{{ .title | markdownify }}</h2>
+  <div class="container">
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Basic Lease</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$29</h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Untagged Wave File</li>
+            <li>Sell Up To 5K Units</li>
+            <li>50K Video/Audio Streams</li>
+            <li>No Ownership</li>
+            <li>Must Credit “(Prod. Hybrid)” In Title and Description</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Trackout Lease</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$79</h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Untagged Wave Trackout</li>
+            <li>Sell Up To 10K Units</li>
+            <li>200K Video/Audio Streams</li>
+            <li>No Ownership</li>
+            <li>Must Credit “(Prod. Hybrid)” In Title and Description</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Unlimited Lease</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$149</h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Untagged Wave Trackout</li>
+            <li>Sell Unlimited Units</li>
+            <li>Unlimited Streams</li>
+            <li>No Ownership</li>
+            <li>Must Credit “(Prod. Hybrid)” In Title and Description</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Exclusive</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$</h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Untagged Wave Trackout</li>
+            <li>Sell Unlimited Units</li>
+            <li>Unlimited Streams</li>
+            <li>Full Ownership</li>
+            <li>Must Credit “(Prod. Hybrid)” In Title and Description</li>
+            <li>BEAT WILL NO LONGER BE SOLD</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

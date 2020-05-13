@@ -1,0 +1,10 @@
+{{- if .Site.Data.homepage.features.enable }}
+{{- with .Site.Data.homepage.features }}
+<section class="section" id="feature">
+  <div align="center">
+    <h2 class="subheading text-white">{{ .title | markdownify }}</h2>
+    <iframe src="https://player.beatstars.com/?storeId=106858" width="100%" height="800" style="max-width:1024px;"> -- none -- </iframe>
+  </div>
+</section>
+{{- end }}
+{{- end }}

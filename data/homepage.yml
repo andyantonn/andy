@@ -1,0 +1,39 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "Sample Pack V.1"
+  content : "Buy Our New Sample Pack HYPE. If You Want To Take Your Music To The Next Level. Stay Tuned For More Sample Packs :)"
+  image : "images/png/Hype. (Noise).png"
+  button: "Buy Now For $19"
+
+############################## product ###########################
+product:
+  name : "HYPE."
+  image : "images/png/Hype. (Noise).png"
+  price : "19"
+
+############################# Feature ############################
+features:
+  enable : true
+  title : "Beat Store"
+
+#################################### Gallery ########################
+gallery:
+  enable : true
+  title : "Checkout some of our artwork!"
+  # Set the image directory to use as base
+  directory : "images/png"
+  # Set the images to show in the gallery
+  images : ["Hype. (Noise).png", "Reverse.png", "Dead Romance.png", "Versace Concept.png",]
+
+#################################### aboutProduct ########################
+aboutProduct:
+  enable : true
+  title : "Licensing Info"
+
+################################## call to action ###################
+cta:
+  enable : true
+  title : "Subscribe for one Free Beat!"
+  content : ""
+  placeholder : "Your Email Address Here"
